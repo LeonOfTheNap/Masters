@@ -1,0 +1,29 @@
+Notes for HUD (Heads-Up Display):
+
+1. Consistency with theme and style - shape, colors, contrast, scale
+2. Claritiy and readibility - absorb a lot of information at a glance; take into consideration color palette and background (clearly seen)
+3. Smart placement of HUD elements - top left for fastest "readbility"
+4. "Need to know" basis - too much HUD = immersion-breaking; e.g. consider blod spats when taking damage
+5. Customizable where you can
+
+What are SF and WF graphics?
+WF - World Fixed
+
+
+HUD AR which is geolocated
+- MiTS (blagi)
+- Strelica ispred playera koja se rotira prema cilju
+- NPC's ne trebaju ništa raditi, samo se kretati s playerom
+- više ulaza u zgradu
+- zapovjedno vozilo ima pristup AR-u, navigira player-a (indikacija za pričanje, mikrofon i sl.)
+- označiti sobu kao pregledanu (biti u njoj 5 sekundi/na klik)
+- invisible colider za "pregledanu" sobu
+- colider sa osobom - "osoba nestane" 
+- dinamički nakon 51% nađenih ljudi, poziv/SMS da je neka osoba za pomoć poslala komand centru i treba njoj prvo pomoći
+- M za Map (BITNO: Koliko puta je netko puta palio kartu i koliko je gledao kartu) - Koliko je tilt, ako je transparency low, onda gleda* ili samo 0 i 1
+- CSV format - korisničko ime
+- timer od početka ulaza do početka izlaza (ali najbolje brojčanik koji gleda uvjete igre, 10 prostorija, svi ljudi spašeni itd.)
+- upute za korištenje
+- oznake nad ostalim vatrogascima/objektom se smanjuje ili povećava s obzirom na distance
+
+
