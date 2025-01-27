@@ -11,7 +11,6 @@ public class MyParticles : MonoBehaviour
     
     [SerializeField] private float ParticleLifeTime = 5f;
     [SerializeField] public float ParticleSpeed = 1f;
-    [SerializeField] private float ParticleSize = 1f;
     [SerializeField] private GameObject particle;
     [SerializeField] private int numberOfParticles = 10;
     [SerializeField] public bool Stop = false;
